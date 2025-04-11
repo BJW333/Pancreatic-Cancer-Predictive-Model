@@ -2,6 +2,7 @@ Pancreatic Cancer Prediction Models
 -------------------------------
 
 This repository contains two different Jupyter notebooks for predicting pancreatic cancer diagnoses from urinary biomarker data:
+Note: "Its highly recommend to click into the files and read through the results do not just rely on this readme"!
 	
 	1.	Pancreatic_Cancer_DecisionTree_Classifier_Prediction_Model.ipynb
  
@@ -17,7 +18,7 @@ This repository contains two different Jupyter notebooks for predicting pancreat
 
 In regards to the Pancreatic_Cancer_DecisionTree_Classifier_Prediction_Model.ipynb these are the results and outcomes of the model:
 -------------------------------
-Note "It is possible to get higher results of accuracy etc when running it again yourself"!
+Note: "It is possible to get higher results of accuracy etc when running it again yourself"!
 <br>
 
 Best hyperparameters: {'classifier__max_depth': 5, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 50}
@@ -84,6 +85,11 @@ To see the output/results of the run programs just click into the corrsponding f
 Pancreatic_Cancer_Stacked_Ensemble_RF_HGB_LR_Prediction_Model.ipynb or Pancreatic_Cancer_DecisionTree_Classifier_Prediction_Model.ipynb 
 <br>
 and scroll all the way down to see the ouputs/results and all of the visualzations.
+
+
+
+
+
 
 
 
