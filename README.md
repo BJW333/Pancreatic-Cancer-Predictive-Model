@@ -93,6 +93,7 @@ The amount of randomly selected patients are: 25
 Overall Accuracy on Random Samples: 0.960
 
 <br>
+<br>
 
 Viewing Outputs and Results.
 -------------------------------
