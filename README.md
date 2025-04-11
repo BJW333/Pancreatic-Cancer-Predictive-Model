@@ -82,7 +82,9 @@ Viewing Outputs and Results.
 -------------------------------
 
 To see the output/results of the run programs just click into the corrsponding file either:
+<br>
 Pancreatic_Cancer_Stacked_Ensemble_RF_HGB_LR_Prediction_Model.ipynb or Pancreatic_Cancer_DecisionTree_Classifier_Prediction_Model.ipynb 
+<br>
 and scroll all the way down to see the ouputs/results and all of the visualzations.
 
 
