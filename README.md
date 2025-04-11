@@ -81,7 +81,9 @@ Overall Accuracy on Random Samples: 0.960
 Viewing Outputs and Results.
 -------------------------------
 
-To see the output/results of the run programs just click into the corrsponding file either Pancreatic_Cancer_Stacked_Ensemble_RF_HGB_LR_Prediction_Model.ipynb or Pancreatic_Cancer_DecisionTree_Classifier_Prediction_Model.ipynb and scroll all the way down to see the results and all of the visualzations.
+To see the output/results of the run programs just click into the corrsponding file either:
+Pancreatic_Cancer_Stacked_Ensemble_RF_HGB_LR_Prediction_Model.ipynb or Pancreatic_Cancer_DecisionTree_Classifier_Prediction_Model.ipynb 
+and scroll all the way down to see the ouputs/results and all of the visualzations.
 
 
 
