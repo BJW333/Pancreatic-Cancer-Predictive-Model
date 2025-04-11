@@ -25,6 +25,7 @@ Note: "Its highly recommend to click into the files and read through the results
        •	Includes standard performance evaluations (accuracy, classification report, confusion matrix) and a permutation-based feature importance analysis.
 
 <br>
+
 Dataset
 -------------------------------
 	•	The dataset is provided by [John J. Davis IV on Kaggle.](https://www.kaggle.com/datasets/johnjdavisiv/urinary-biomarkers-for-pancreatic-cancer)
@@ -103,10 +104,9 @@ and scroll all the way down to see the ouputs/results and all of the visualzatio
 
 
 License
-
+-------------------------------
 This project is distributed under the MIT License. Refer to the LICENSE file for details.
 
-⸻
 
 
 
