@@ -11,7 +11,7 @@ The goal is to classify patients into three categories of diagnosis classes they
  	
 	3: Pancreatic Ductal Adenocarcinoma (Pancreatic Cancer)
 
-Note: "Its highly recommend to click into the files and read through the results do not just rely on this readme"!
+Note: "Its highly recommend to click into the files and read through the results do not just rely on this README"!
 	
 	1.	Pancreatic_Cancer_DecisionTree_Classifier_Prediction_Model.ipynb
  
