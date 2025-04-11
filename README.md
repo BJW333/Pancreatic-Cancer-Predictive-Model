@@ -4,10 +4,12 @@ Pancreatic Cancer Prediction Models
 This repository contains two different Jupyter notebooks for predicting pancreatic cancer diagnoses from urinary biomarker data:
 	
 	1.	Pancreatic_Cancer_DecisionTree_Classifier_Prediction_Model.ipynb
+ 
        •	Uses a single Decision Tree classifier (with hyperparameter tuning) to predict whether a patient has Pancreatic Ductal Adenocarcinoma, Benign Hepatobiliary Disease, or is a control (no pancreatic disease).
        •	Includes standard data preprocessing steps, model training, evaluation metrics, a confusion matrix, and a decision tree plot.
        
 	2.	Pancreatic_Cancer_Stacked_Ensemble_RF_HGB_LR_Prediction_Model.ipynb
+ 
        •	Implements a stacked ensemble approach using:
        •	RandomForest and HistGradientBoosting as base estimators, and LogisticRegression as the final meta-learner.
        •	Includes standard performance evaluations (accuracy, classification report, confusion matrix) and a permutation-based feature importance analysis.
@@ -16,48 +18,58 @@ This repository contains two different Jupyter notebooks for predicting pancreat
 In regards to the Pancreatic_Cancer_DecisionTree_Classifier_Prediction_Model.ipynb these are the results and outcomes of the model:
 -------------------------------
 Note "It is possible to get higher results of accuracy etc when running it again yourself"!
+<br>
 
 Best hyperparameters: {'classifier__max_depth': 5, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 50}
 Best CV accuracy: 0.633
 Test accuracy (tuned): 0.644
 
 Classification Report (tuned):
-		precision    recall  f1-score   support
 
-1       	0.65      0.55      0.60        31
-2       	0.58      0.75      0.65        44
-3               0.74      0.60      0.67        43
+ 		   precision    recall  f1-score   support
+	1       	0.65      0.55      0.60        31
+	2       	0.58      0.75      0.65        44
+	3               0.74      0.60      0.67        43
 
-accuracy                            0.64       118
-macro avg       0.66      0.63      0.64       118
-weighted avg    0.66      0.64      0.64       118
+	accuracy                            0.64       118
+	macro avg       0.66      0.63      0.64       118
+	weighted avg    0.66      0.64      0.64       118
 
+<br>
 The amount of randomly selected patients are: 35
 Overall Accuracy on Random Samples: 0.771
 
+
+
 <br>
 <br>
 <br>
+<br>
+
+
+
 
 In regards to the Pancreatic_Cancer_Stacked_Ensemble_RF_HGB_LR_Prediction_Model.ipynb these are the results and outcomes of the model:
 -------------------------------
 Note "It is possible to get higher results of accuracy etc when running it again yourself"!
+<br>
 
 Best hyperparameters: {'classifier__final_estimator__C': 10, 'classifier__hgb__max_iter': 200, 'classifier__rf__n_estimators': 100}
 Best CV accuracy: 0.676
 Test accuracy (tuned): 0.746
 
-Classification Report (tuned):
-              precision    recall  f1-score   support
+Classification Report (tuned):	
 
-1             0.71      0.77      0.74        31
-2             0.67      0.66      0.67        44
-3             0.85      0.81      0.83        43
+  		 precision    recall  f1-score   support
+	1             0.71      0.77      0.74        31
+	2             0.67      0.66      0.67        44
+	3             0.85      0.81      0.83        43
 
-accuracy                          0.75       118
-macro avg     0.74      0.75      0.75       118
-weighted avg  0.75      0.75      0.75       118
+	accuracy                          0.75       118
+	macro avg     0.74      0.75      0.75       118
+	weighted avg  0.75      0.75      0.75       118
 
+<br>
 The amount of randomly selected patients are: 25
 Overall Accuracy on Random Samples: 0.960
 
