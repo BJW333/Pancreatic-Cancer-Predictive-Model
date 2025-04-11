@@ -92,6 +92,7 @@ The amount of randomly selected patients are: 25
 <br>
 Overall Accuracy on Random Samples: 0.960
 
+<br>
 
 Viewing Outputs and Results.
 -------------------------------
@@ -102,6 +103,7 @@ Pancreatic_Cancer_Stacked_Ensemble_RF_HGB_LR_Prediction_Model.ipynb or Pancreati
 <br>
 and scroll all the way down to see the ouputs/results and all of the visualzations.
 
+<br>
 
 License
 -------------------------------
