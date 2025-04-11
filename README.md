@@ -50,8 +50,6 @@ Overall Accuracy on Random Samples: 0.771
 <br>
 
 
-
-
 In regards to the Pancreatic_Cancer_Stacked_Ensemble_RF_HGB_LR_Prediction_Model.ipynb these are the results and outcomes of the model:
 -------------------------------
 Note "It is possible to get higher results of accuracy etc when running it again yourself"!
