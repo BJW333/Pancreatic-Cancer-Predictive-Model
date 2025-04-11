@@ -5,7 +5,7 @@ This repository provides two distinct Jupyter notebooks demonstrating how to pre
 <br>
 The goal is to classify patients into three categories of diagnosis classes they are defined as:
 
-	1: Control (No Pancreatic Disease)
+ 	1: Control (No Pancreatic Disease)
     	2: Benign Hepatobiliary Disease (including chronic pancreatitis)
     	3: Pancreatic Ductal Adenocarcinoma (Pancreatic Cancer)
 
