@@ -1,7 +1,14 @@
 Pancreatic Cancer Prediction Models
 -------------------------------
 
-This repository contains two different Jupyter notebooks for predicting pancreatic cancer diagnoses from urinary biomarker data:
+This repository provides two distinct Jupyter notebooks demonstrating how to predict pancreatic cancer diagnoses using urinary biomarker data. Each notebook employs a different approach in regards to its model, showcasing different approaches to the same problem. 
+<br>
+The goal is to classify patients into three categories of diagnosis classes they are defined as:
+
+	1: Control (No Pancreatic Disease)
+    	2: Benign Hepatobiliary Disease (including chronic pancreatitis)
+    	3: Pancreatic Ductal Adenocarcinoma (Pancreatic Cancer)
+
 Note: "Its highly recommend to click into the files and read through the results do not just rely on this readme"!
 	
 	1.	Pancreatic_Cancer_DecisionTree_Classifier_Prediction_Model.ipynb
