@@ -1,4 +1,5 @@
 Pancreatic Cancer Prediction Models
+-------------------------------
 
 This repository contains two different Jupyter notebooks for predicting pancreatic cancer diagnoses from urinary biomarker data:
 	
@@ -13,8 +14,9 @@ This repository contains two different Jupyter notebooks for predicting pancreat
 
 
 In regards to the Pancreatic_Cancer_DecisionTree_Classifier_Prediction_Model.ipynb these are the results and outcomes of the model:
-Note "It is possible to get higher results of accuracy etc when running it again yourself"!
 -------------------------------
+Note "It is possible to get higher results of accuracy etc when running it again yourself"!
+
 Best hyperparameters: {'classifier__max_depth': 5, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 50}
 Best CV accuracy: 0.633
 Test accuracy (tuned): 0.644
@@ -38,8 +40,9 @@ Overall Accuracy on Random Samples: 0.771
 <br>
 
 In regards to the Pancreatic_Cancer_Stacked_Ensemble_RF_HGB_LR_Prediction_Model.ipynb these are the results and outcomes of the model:
-Note "It is possible to get higher results of accuracy etc when running it again yourself"!
 -------------------------------
+Note "It is possible to get higher results of accuracy etc when running it again yourself"!
+
 Best hyperparameters: {'classifier__final_estimator__C': 10, 'classifier__hgb__max_iter': 200, 'classifier__rf__n_estimators': 100}
 Best CV accuracy: 0.676
 Test accuracy (tuned): 0.746
