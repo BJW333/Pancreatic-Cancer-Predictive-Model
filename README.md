@@ -21,7 +21,9 @@ Note "It is possible to get higher results of accuracy etc when running it again
 <br>
 
 Best hyperparameters: {'classifier__max_depth': 5, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 50}
+<br>
 Best CV accuracy: 0.633
+<br>
 Test accuracy (tuned): 0.644
 
 Classification Report (tuned):
@@ -37,6 +39,7 @@ Classification Report (tuned):
 
 <br>
 The amount of randomly selected patients are: 35
+<br>
 Overall Accuracy on Random Samples: 0.771
 
 
@@ -55,7 +58,9 @@ Note "It is possible to get higher results of accuracy etc when running it again
 <br>
 
 Best hyperparameters: {'classifier__final_estimator__C': 10, 'classifier__hgb__max_iter': 200, 'classifier__rf__n_estimators': 100}
+<br>
 Best CV accuracy: 0.676
+<br>
 Test accuracy (tuned): 0.746
 
 Classification Report (tuned):	
@@ -71,6 +76,7 @@ Classification Report (tuned):
 
 <br>
 The amount of randomly selected patients are: 25
+<br>
 Overall Accuracy on Random Samples: 0.960
 
 
